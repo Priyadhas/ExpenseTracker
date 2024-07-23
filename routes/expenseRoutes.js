@@ -1,6 +1,6 @@
 const express = require('express');
 const { createExpense, getAllExpenses, getExpenseById, updateExpense, deleteExpense } = require('../controllers/expenseController');
- const { validateExpense } = require('../middleware/validationMiddleware');
+const { validateExpense } = require('../middleware/validationMiddleware');
 
 const router = express.Router();
 
